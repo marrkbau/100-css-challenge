@@ -2,7 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 
 
-
 .frame {
   position: absolute;
   top: 50%;
@@ -29,6 +28,10 @@
   transform: translate(-50%,-50%);
 }
 
+
+
+
+
 /*Challenge Template Above*/
 
 * {
@@ -38,10 +41,16 @@
 
 }
 
+
+body {
+  background-color: #D5D3D4;
+}
+
 .frame {
   background-color: #FBDA61;
   background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
 }
+
 .numbers {
 	position: relative;
 	height: 100px;
